@@ -1,0 +1,25 @@
+{
+  "name": "preentrega3-hermanosman",
+  "version": "1.0.0",
+  "description": "pre-entrega3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "Osman Herman",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OsmanHerman/PreEntrega3-OsmanHerman.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OsmanHerman/PreEntrega3-OsmanHerman/issues"
+  },
+  "homepage": "https://github.com/OsmanHerman/PreEntrega3-OsmanHerman#readme"
+}
